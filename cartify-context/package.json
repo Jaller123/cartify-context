@@ -1,0 +1,13 @@
+{
+  "name": "@cartify/cart-context",
+  "version": "1.0.0",
+  "description": "Shared CartContext for Cartify frontend & app",
+  "main": "src/CartContext.jsx",
+  "files": ["src"],
+  "keywords": ["react","context","cart"],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "license": "MIT"
+}
