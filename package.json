@@ -1,0 +1,22 @@
+{
+  "name": "cartify-context",
+  "version": "1.0.1",
+  "description": "Shared CartContext for Cartify",
+  "main": "src/CartContext.jsx",
+  "module": "src/CartContext.jsx",
+  "exports": {
+    ".": {
+      "import": "./src/CartContext.jsx",
+      "default": "./src/CartContext.jsx"
+    }
+  },
+  "files": ["src"],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
